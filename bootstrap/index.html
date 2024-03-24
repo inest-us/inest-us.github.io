@@ -1,38 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./js/bootstrap.min.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1>Hello, welcome to my website!</h1> 
-            <p>Watch this page grow as we use more and more components from Bootstrap!</p>
-            <a href="#" class="btn btn-primary btn-lg">
-                More Detail<span class="fa fa-chevron-right"></span>
-            </a>
-        </div>
+      <div class="jumbotrons">
+        <h1>Hello, welcome to my website!</h1>
+        <p>
+          Watch this page grow as we use more and more components from
+          Bootstrap!
+        </p>
+        <a href="#" class="btn btn-primary btn-lg">
+          More Detail<span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cupiditate veniam voluptatem distinctio, quae nobis. Non eligendi sunt quae officiis possimus et, culpa nemo doloribus fuga, inventore at eaque aliquam!</p> 
-            </div>
-            <div class="col-md-3">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus autem maxime, provident accusantium sequi beatae dolorum recusandae illo nostrum asperiores harum fugit perferendis omnis ea soluta facilis nobis! Id, accusantium!</p> 
-            </div>
-            <div class="col-md-3">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod quaerat exercitationem impedit officiis qui tempora est dicta odit sequi corrupti, labore reprehenderit distinctio aliquid architecto deleniti, odio quis minus.</p> 
-            </div>
-            <div class="col-md-3">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, earum? Iusto magnam reiciendis quam voluptatibus suscipit quisquam mollitia deserunt, eaque quidem earum veritatis officiis a. Quam corrupti aperiam unde illum!</p>
-            </div>
-        </div>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu 2</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false">
+            Menu 3
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-</body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            cupiditate veniam voluptatem distinctio, quae nobis. Non eligendi
+            sunt quae officiis possimus et, culpa nemo doloribus fuga, inventore
+            at eaque aliquam!
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            autem maxime, provident accusantium sequi beatae dolorum recusandae
+            illo nostrum asperiores harum fugit perferendis omnis ea soluta
+            facilis nobis! Id, accusantium!
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur quod quaerat exercitationem impedit officiis qui tempora
+            est dicta odit sequi corrupti, labore reprehenderit distinctio
+            aliquid architecto deleniti, odio quis minus.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis,
+            earum? Iusto magnam reiciendis quam voluptatibus suscipit quisquam
+            mollitia deserunt, eaque quidem earum veritatis officiis a. Quam
+            corrupti aperiam unde illum!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
